@@ -1,5 +1,5 @@
 // Create your variable here, name it `insects`
-var peeps = [
+var insects = [
   {
     name: 'Mercury Man',
     email: 'theman@mercury.com',
