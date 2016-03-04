@@ -1,28 +1,40 @@
 // Create your variable here, name it `insects`
 var insects = [
   {
-    name: 'Mercury Man',
-    email: 'theman@mercury.com',
-    tel: '+05551234',
-    loc: [46001200, 69816900]
+    name: 'Ant Nest Beetle',
+    img: 'ant-nest-beetle.jpg',
+    family: 'Carabidae',
+    size: [6, 20],
+    food: {eatsInsects: true,
+    eatsDung: false,
+    eatsPlants: false
   },
   {
-    name: 'Venus Venturer',
-    email: 'neus@theadventure.com',
-    tel: '+1551234',
-    loc: [107477000, 108939000]
+    name: 'Dung Beetle',
+    img: 'dung-beetle.jpg',
+    family: 'Scarabidae',
+    size: [20, 30],
+    food: {eatsInsects: false,
+    eatsDung: true,
+    eatsPlants: false
   },
   {
-    name: 'Jupiter Juggernaut',
-    email: 'thejugger@jupiter.com',
-    tel: '+5551234',
-    loc: [107477000, 108939000]
+    name: 'Stag Beetle',
+    img: 'stag-beetle.jpg',
+    family: 'Lucanidae',
+    size: [5, 120],
+    food: {eatsInsects: false,
+    eatsDung: false,
+    eatsPlants: true
   },
   {
-    name: 'Manic Mars',
-    email: 'manic@mars.com',
-    tel: '+5541234',
-    loc: [107200000, 108939000]
+    name: 'Dung Beetle',
+    img: 'dung-beetle.jpg',
+    family: 'Scarabidae',
+    size: [20, 30],
+    food: {eatsInsects: false,
+    eatsDung: true,
+    eatsPlants: false
   }
 ];
 
