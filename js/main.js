@@ -1,5 +1,30 @@
 // Create your variable here, name it `insects`
-
+var peeps = [
+  {
+    name: 'Mercury Man',
+    email: 'theman@mercury.com',
+    tel: '+05551234',
+    loc: [46001200, 69816900]
+  },
+  {
+    name: 'Venus Venturer',
+    email: 'neus@theadventure.com',
+    tel: '+1551234',
+    loc: [107477000, 108939000]
+  },
+  {
+    name: 'Jupiter Juggernaut',
+    email: 'thejugger@jupiter.com',
+    tel: '+5551234',
+    loc: [107477000, 108939000]
+  },
+  {
+    name: 'Manic Mars',
+    email: 'manic@mars.com',
+    tel: '+5541234',
+    loc: [107200000, 108939000]
+  }
+];
 
 // ##########################################################
 // START DO NOT CHANGE ZONE
